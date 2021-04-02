@@ -1,5 +1,6 @@
 import React from 'react';
 import SelfPhoto from './self-photo.jpg';
+import './style.css';
 function Profile() {
   return (
     <div>
@@ -9,7 +10,7 @@ function Profile() {
           alt="Donnahue George"
           className="uk-animation-reverse uk-transform-origin-top-right"
           id="selfStyle"
-          uk-scrollspy="cls: uk-animation-kenburns; repeat: true"
+          data-uk-scrollspy="cls: uk-animation-kenburns; repeat: true"
         />
       </div>
     </div>
