@@ -5,12 +5,12 @@ function Links() {
   return (
     <div
       className="uk-child-width-1-3@m uk-child-width-1-1@s"
-      uk-grid
+      uk-grid="true"
       uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true"
     >
       <div className="uk-card uk-card-default cardStyle uk-card-hover">
         <div className="uk-card-header">
-          <div className="uk-grid-small uk-flex-middle" uk-grid>
+          <div className="uk-grid-small uk-flex-middle" uk-grid="true">
             <div className="uk-width-auto">
               <img
                 className="uk-border-circle"
@@ -30,7 +30,7 @@ function Links() {
       </div>
       <div className="uk-card uk-card-default cardStyle">
         <div className="uk-card-header">
-          <div className="uk-grid-small uk-flex-middle" uk-grid>
+          <div className="uk-grid-small uk-flex-middle" uk-grid="true">
             <div className="uk-width-auto">
               <img
                 className="uk-border-circle"
@@ -52,7 +52,7 @@ function Links() {
       </div>
       <div className="uk-card uk-card-default cardStyle">
         <div className="uk-card-header">
-          <div className="uk-grid-small uk-flex-middle" uk-grid>
+          <div className="uk-grid-small uk-flex-middle" uk-grid="true">
             <div className="uk-width-auto">
               <img
                 className="uk-border-circle"
