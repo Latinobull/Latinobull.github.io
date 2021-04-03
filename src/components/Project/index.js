@@ -3,6 +3,7 @@ import DayPlanner from './Day-Planner.png';
 import Password from './Password-Generator.png';
 import AudioBridge from './AudioBridge.png';
 import HungerBuster from './Hunger-Buster.png';
+import './style.css';
 function Project() {
   return (
     <div>
