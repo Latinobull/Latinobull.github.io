@@ -1,14 +1,16 @@
 import React from 'react';
 import './style.css';
-
+import Github from './github-logo.png';
+import LinkedIn from './LI-In-Bug.png';
+import ResumeLogo from './resume-logo.jpg';
 function Links() {
   return (
     <div
-      className="uk-child-width-1-3@m uk-child-width-1-1@s"
+      className="row"
       uk-grid="true"
       uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true"
     >
-      <div className="uk-card uk-card-default cardStyle uk-card-hover">
+      <div className="uk-card uk-card-default cardStyle col">
         <div className="uk-card-header">
           <div className="uk-grid-small uk-flex-middle" uk-grid="true">
             <div className="uk-width-auto">
@@ -16,7 +18,7 @@ function Links() {
                 className="uk-border-circle"
                 width="40"
                 height="40"
-                src="Assets/github-logo.png"
+                src={Github}
                 alt="github"
               />
             </div>
@@ -28,7 +30,7 @@ function Links() {
           </div>
         </div>
       </div>
-      <div className="uk-card uk-card-default cardStyle">
+      <div className="uk-card uk-card-default cardStyle col">
         <div className="uk-card-header">
           <div className="uk-grid-small uk-flex-middle" uk-grid="true">
             <div className="uk-width-auto">
@@ -36,7 +38,7 @@ function Links() {
                 className="uk-border-circle"
                 width="40"
                 height="40"
-                src="Assets/LI-In-Bug.png"
+                src={LinkedIn}
                 alt="linkedin"
               />
             </div>
@@ -50,7 +52,7 @@ function Links() {
           </div>
         </div>
       </div>
-      <div className="uk-card uk-card-default cardStyle">
+      <div className="uk-card uk-card-default cardStyle col">
         <div className="uk-card-header">
           <div className="uk-grid-small uk-flex-middle" uk-grid="true">
             <div className="uk-width-auto">
@@ -58,7 +60,7 @@ function Links() {
                 className="uk-border-circle"
                 width="40"
                 height="40"
-                src="Assets/resume-logo.jpg"
+                src={ResumeLogo}
                 alt="Resume"
               />
             </div>
