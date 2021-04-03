@@ -1,5 +1,8 @@
 import React from 'react';
-
+import DayPlanner from './Day-Planner.png';
+import Password from './Password-Generator.png';
+import AudioBridge from './AudioBridge.png';
+import HungerBuster from './Hunger-Buster.png';
 function Project() {
   return (
     <div>
@@ -13,22 +16,22 @@ function Project() {
         <ul class="uk-slideshow-items">
           <li>
             <a href="#offcanvas-usage" uk-toggle>
-              <img src="Assets/Hunger-Buster.png" alt="" uk-cover />
+              <img src={HungerBuster} alt="" uk-cover />
             </a>
           </li>
           <li>
             <a href="#offcanvas-usage1" uk-toggle>
-              <img src="Assets/Password-Generator.png" alt="" uk-cover />
+              <img src={Password} alt="" uk-cover />
             </a>
           </li>
           <li>
             <a href="#offcanvas-usage2" uk-toggle>
-              <img src="Assets/Day-Planner.png" alt="" uk-cover />
+              <img src={DayPlanner} alt="" uk-cover />
             </a>
           </li>
           <li>
             <a href="#offcanvas-usage3" uk-toggle>
-              <img src="Assets/AudioBridge.png" alt="" uk-cover />
+              <img src={AudioBridge} alt="" uk-cover />
             </a>
           </li>
         </ul>
