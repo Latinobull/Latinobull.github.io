@@ -13,6 +13,8 @@ function App() {
       <Links />
       <hr />
       <Project />
+      <hr />
+
       <Offcanvas />
     </div>
   );
