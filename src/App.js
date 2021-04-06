@@ -4,6 +4,7 @@ import Profile from './components/Profile';
 import Links from './components/Links';
 import Project from './components/Project';
 import Offcanvas from './components/OffCanvas';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="uk-align-center">
@@ -14,6 +15,7 @@ function App() {
       <hr />
       <Project />
       <hr />
+      <Footer />
 
       <Offcanvas />
     </div>

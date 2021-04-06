@@ -1,0 +1,18 @@
+.cardStyle {
+  background-color: aliceblue;
+}
+
+#slideshow {
+  width: 70%;
+}
+
+#cardColor {
+  background-color: rgb(135, 195, 248, 0.6);
+  width: 60%;
+}
+
+p {
+  font-family: 'Exo', sans-serif;
+  color: aliceblue;
+  text-align: center;
+}
