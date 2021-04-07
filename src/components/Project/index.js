@@ -16,28 +16,48 @@ function Project() {
       >
         <ul class="uk-slideshow-items">
           <li>
-            <a href="#offcanvas-usage" uk-toggle>
-              <img src={HungerBuster} alt="" uk-cover />
+            <a
+              href="https://carolineablynch.github.io/Hunger-Buster/"
+              target="_blank"
+              rel="noopener noreferrer"
+              uk-toggle
+            >
+              <img src={HungerBuster} alt="Hunger Buster" uk-cover />
             </a>
           </li>
           <li>
-            <a href="#offcanvas-usage1" uk-toggle>
-              <img src={Password} alt="" uk-cover />
+            <a
+              href="https://latinobull.github.io/Password-Generator/"
+              target="_blank"
+              rel="noopener noreferrer"
+              uk-toggle
+            >
+              <img src={Password} alt="Password Generator" uk-cover />
             </a>
           </li>
           <li>
-            <a href="#offcanvas-usage2" uk-toggle>
-              <img src={DayPlanner} alt="" uk-cover />
+            <a
+              href="https://latinobull.github.io/Day-Planner/"
+              target="_blank"
+              rel="noopener noreferrer"
+              uk-toggle
+            >
+              <img src={DayPlanner} alt="DayPlanner" uk-cover />
             </a>
           </li>
           <li>
-            <a href="#offcanvas-usage3" uk-toggle>
-              <img src={AudioBridge} alt="" uk-cover />
+            <a
+              href="https://hidden-castle-67810.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              uk-toggle
+            >
+              <img src={AudioBridge} alt="AudioBridge" uk-cover />
             </a>
           </li>
         </ul>
       </div>
-      <h4>Click on the photo to learn more about that project!</h4>
+      <h4>Click on the photo to go to the Project!</h4>
     </div>
   );
 }
