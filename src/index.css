@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
 
-/* #root {
-  background-color: grey;
-} */
+html body body > div,
+.app {
+  height: 100%;
+}
