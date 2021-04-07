@@ -3,7 +3,6 @@ import Header from './components/Header';
 import Profile from './components/Profile';
 import Links from './components/Links';
 import Project from './components/Project';
-import Offcanvas from './components/OffCanvas';
 import Footer from './components/Footer';
 function App() {
   return (
@@ -16,8 +15,6 @@ function App() {
       <Project />
       <hr />
       <Footer />
-
-      <Offcanvas />
     </div>
   );
 }
