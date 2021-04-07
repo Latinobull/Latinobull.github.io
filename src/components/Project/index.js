@@ -7,14 +7,14 @@ import './style.css';
 function Project() {
   return (
     <div>
-      <h1 class="uk-align-center">Projects</h1>
+      <h1 className="uk-align-center">Projects</h1>
       <div
-        class="uk-position-relative uk-visible-toggle uk-light uk-align-center"
+        className="uk-position-relative uk-visible-toggle uk-light uk-align-center"
         tabindex="-1"
         uk-slideshow="min-height: 300; max-height: 600; autoplay: true; animation: fade"
         id="slideshow"
       >
-        <ul class="uk-slideshow-items">
+        <ul className="uk-slideshow-items">
           <li>
             <a
               href="https://carolineablynch.github.io/Hunger-Buster/"
