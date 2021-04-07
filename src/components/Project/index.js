@@ -37,6 +37,7 @@ function Project() {
           </li>
         </ul>
       </div>
+      <h4>Click on the photo to learn more about that project!</h4>
     </div>
   );
 }
