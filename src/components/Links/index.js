@@ -7,7 +7,6 @@ function Links() {
   return (
     <div
       className="row"
-      uk-grid="true"
       uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true"
     >
       <div className="uk-card uk-card-default cardStyle col">
