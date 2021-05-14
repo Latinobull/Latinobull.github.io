@@ -65,7 +65,10 @@ function Links() {
             </div>
             <div className="uk-width-expand">
               <h3 className="uk-card-title uk-margin-remove-bottom">
-                <a href="Assets/Donnahue-resume.pdf" download>
+                <a
+                  href="https://drive.google.com/file/d/1ayBc54UQXxjb4A-LsTZE8c1rz3aLaNAl/view?usp=sharing"
+                  download
+                >
                   Resume
                 </a>
               </h3>
